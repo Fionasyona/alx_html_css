@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  background: #fff;
+  color: #333;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.What-we-do-section h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.What-we-do-section {
+  text-align: center;
+  padding: 3em 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-weight: normal;
+}
+
+.What-we-do-list-title {
+  font-size: 2em;
+  font-weight: 600;
+  margin-bottom: 40px;
+  color: #444;
+  text-align: center;
+}
+
+.What-we-do-list-description {
+  font-size: 1em;
+  color: #444;
+  max-width: 800px;
+  margin: 0 auto 3em;
+  line-height: 1.6;
+}
+
+.What-we-do-lists {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0 20px;
+}
+
+.What-we-do-list {
+  flex: 1 1 200px;
+  max-width: 220px;
+  text-align: center;
+}
+
+.icon {
+  font-size: 3em;
+  color: #e74c3c;
+  margin-bottom: 1em;
+}
+
+.icon-section {
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+  flex-wrap: wrap;
+  margin-top: 2em;
+}
+
+.icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+}
+
+.icon-item i {
+  font-size: 3em;
+  color: #FF6565;
+  margin-bottom: 0.5em;
+}
+
+.What-we-do-list h3 {
+  font-weight: 600;
+  margin-bottom: 0.5em;
+  margin-top: 15px;
+}
+
+.What-we-do-list p {
+  color: #666;
+  font-size: 0.95em;
+  line-height: 1.4;
+}

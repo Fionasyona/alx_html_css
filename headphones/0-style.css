@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background: url('images/headphones_hero_1.jpg') no-repeat center center fixed;
+  background-size: cover;
+    color: #FFFFFF;
+
+header {
+  background: radial-gradient #FFFFFF;
+  padding: 20px 50px;
+  position: relative;
+}
+
+/* Navigation styling */
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 20px 50px;
+  color: #FFFFFF;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.logo span {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-transform: mixed;
+}
+
+.nav-links img.logo {
+  height: 40px;
+  margin-right: auto;
+}
+
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-transform: lowercase;
+}
+
+a:hover,
+a:active {
+  color: #FF6565;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 50px;
+  font-weight: 200;
+  line-height: 1;
+  word-wrap: break-word;
+  margin-bottom: 20px;
+}
+
+.hero h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+
+}
+
+.hero .tags {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.hero .tags span {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+.register-button {
+  margin-top: 25px;
+  margin-bottom: 35px;
+  padding: 10px 25px;
+  background-color: #FF6565;
+  border: none;
+  border-radius: 25px;
+  color: #FFFFFF;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.register-button:hover {
+  background-color: #FF6565;
+}
+
+button:hover,
+button:active {
+  opacity: 0.9;
+}
+
+
+/* Paragraph */
+.container p {
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 30px auto 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 480px) {
+  .container {
+    padding: 60px 20px;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero h2 {
+    font-size: 1rem;
+  }
+
+  .container p {
+    font-size: 0.9rem;
+  }
+
+  .register-button {
+    font-size: 0.9rem;
+    padding: 12px 24px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-links ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+}
